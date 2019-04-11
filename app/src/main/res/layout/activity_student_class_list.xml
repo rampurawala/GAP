@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClassesList.StudentClassList">
+
+   <!-- <Button
+        android:id="@+id/join_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join New Class" />-->
+    <Button
+        android:id="@+id/join_class"
+
+        android:drawableLeft="@drawable/join_class"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:paddingRight="@dimen/_20sdp"
+        android:paddingLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#F85E58"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        android:text="Join Class"
+        android:textColor="@color/DarkGreen"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold|normal" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rc_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/classes"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Classes"
+            />
+        <item
+            android:id="@+id/change_password"
+            android:icon="@drawable/ic_vpn_key_black_24dp"
+            android:title="Change Password" />
+
+        <item
+            android:id="@+id/createClass"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="Create Class"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/msgList"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Message List" />
+
+        <item
+            android:id="@+id/todolist"
+            android:icon="@drawable/todo_list"
+            android:title="To Do List" />
+
+
+        <item
+            android:id="@+id/logOut"
+            android:icon="@drawable/log_out"
+            android:title="Logout" />
+    </group>
+
+</menu>

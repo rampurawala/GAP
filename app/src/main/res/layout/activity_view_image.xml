@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MessageInfo.ViewImageAndVideo">
+
+    <!--<ImageView
+        android:id="@+id/img_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="100dp"
+        android:maxWidth="50dp"
+        android:scaleType="matrix"
+         />-->
+<com.example.hp.gap.utils.TouchImageView
+    android:id="@+id/frag_imageview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="fitCenter"
+    android:src="@drawable/people"
+    android:visibility="gone"
+    android:transitionName="transition_name_phone"  />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+        android:id="@+id/linearVideoView"
+        android:visibility="gone"
+        android:gravity="center">
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:id="@+id/VideoView"
+        android:scaleType="fitCenter"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+       />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearPdfView"
+        android:visibility="gone"
+       android:gravity="center"
+        >
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pdfView" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

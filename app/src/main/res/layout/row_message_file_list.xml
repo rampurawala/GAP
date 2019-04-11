@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/messageFile_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_3sdp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="2"
+            android:src="@drawable/avtar" />
+
+        <TextView
+            android:id="@+id/fileName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_weight="7"
+
+            android:text="File name" />
+
+        <ImageButton
+            android:id="@+id/downloadFile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:background="@android:color/transparent"
+
+            android:src="@drawable/file_download" />
+
+        <ImageButton
+            android:id="@+id/viewFile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:background="@android:color/transparent"
+
+            android:src="@drawable/view_file_list" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/VideoView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="15">
+
+        <VideoView
+            android:id="@+id/video"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:src="@drawable/avtar" />
+
+        <TextView
+            android:id="@+id/VideofileName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_weight="7"
+            android:text="File name" />
+
+        <ImageButton
+            android:id="@+id/VideodownloadFile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_weight="3"
+            android:background="@android:color/transparent"
+
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/file_download" />
+
+        <ImageButton
+            android:id="@+id/VideoviewFile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_weight="3"
+            android:background="@android:color/transparent"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/view_file_list" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="15">
+
+        <ImageView
+            android:id="@+id/pdfimg"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_weight="2"
+            android:src="@drawable/pdf_img" />
+
+        <TextView
+            android:id="@+id/pdffileName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_weight="7"
+            android:text="File name" />
+
+        <ImageButton
+            android:id="@+id/pdfdownloadFile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_weight="3"
+            android:background="@android:color/transparent"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/file_download" />
+
+        <ImageButton
+            android:id="@+id/pdfviewFile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_weight="3"
+            android:background="@android:color/transparent"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/view_file_list" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linkView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="15">
+
+        <ImageView
+            android:id="@+id/linkimg"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+android:layout_gravity="center"
+            android:layout_weight="2"
+            android:src="@drawable/link_image" />
+
+        <TextView
+            android:id="@+id/linkfileName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_weight="8"
+            android:text="File name" />
+
+        <TextView
+            android:id="@+id/linkOpen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_weight="5"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/file_download"
+
+            android:text="Click here to Open Link"
+            android:textColor="@android:color/holo_blue_dark" />
+
+
+    </LinearLayout>
+</LinearLayout>

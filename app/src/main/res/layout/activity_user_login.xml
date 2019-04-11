@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registration_background"
+    android:orientation="vertical"
+
+    tools:context=".UserLoginActivity">
+    <LinearLayout
+        android:background="#50ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:id="@+id/linearLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical"
+            android:padding="@dimen/_5sdp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="USER LOGIN"
+                        android:textColor="@color/LightGreen"
+                        android:textSize="@dimen/_30ssp"
+                        android:textStyle="italic"
+                        app:fontFamily="@font/new_rocker" />
+
+
+                    <EditText
+                        android:backgroundTint="@color/LightGreen"
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:layout_marginLeft="@dimen/_25sdp"
+                        android:layout_marginRight="@dimen/_25sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:drawableLeft="@drawable/gmail"
+
+                        android:drawablePadding="@dimen/_10sdp"
+                        android:hint="Email"
+                        android:textColor="@color/LightGreen"
+                        android:textColorHint="@color/LightGreen"
+                        android:textStyle="bold" />
+
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <EditText
+                            android:id="@+id/password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_25sdp"
+                            android:layout_marginRight="@dimen/_25sdp"
+                            android:drawableLeft="@drawable/password"
+                            android:drawablePadding="@dimen/_10sdp"
+                            android:hint="Password"
+                            android:backgroundTint="@color/LightGreen"
+                            android:inputType="textPassword"
+                            android:textColor="@color/LightGreen"
+                            android:textColorHint="@color/LightGreen"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:backgroundTint="@color/LightGreen"
+                            android:id="@+id/img_LoginPassword"
+                            android:layout_width="@dimen/_25sdp"
+
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_gravity="end|center_vertical"
+                            android:layout_marginRight="@dimen/_30sdp"
+                            android:src="@drawable/invisible_eye" />
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#F85E58"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="0"
+                android:text="Sign in"
+                android:textColor="@color/DarkGreen"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold|normal" />
+
+
+            <TextView
+                android:id="@+id/createAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="Don't have account yet? Create an account"
+                android:textAllCaps="false"
+                android:textColor="#cdff05"
+                android:textSize="@dimen/_15ssp"
+                android:background="#26000000"
+                android:textStyle="bold"
+                app:fontFamily="@font/alegreya_sans_sc_thin" />
+
+
+            <TextView
+                android:background="#26000000"
+                android:id="@+id/forgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="Forgot Password??"
+                android:textAllCaps="false"
+                android:textColor="#fd140c"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold"
+                app:fontFamily="@font/alegreya_sans_sc_thin" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

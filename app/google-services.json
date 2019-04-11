@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "523504142460",
+    "firebase_url": "https://group-access-point-34fcc.firebaseio.com",
+    "project_id": "group-access-point-34fcc",
+    "storage_bucket": "group-access-point-34fcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523504142460:android:356b93f8c35c8666",
+        "android_client_info": {
+          "package_name": "com.example.hp.gap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523504142460-pp79orkr2uh05qhj2bnrf03q1uquka31.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.gap",
+            "certificate_hash": "486db7eb866479233b92f561a02458cfe2f61b26"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAqaU0QAEFvPbl8BBuWiZnZXTThIBlnwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523504142460-1b4a9oaa2tm15uh3rklqqbs4ub7ub3rc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

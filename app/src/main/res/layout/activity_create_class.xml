@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".CreateClass.CreateClassActivity">
+
+    <FrameLayout
+        android:background="@color/LightGreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/linearLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="CREATE CLASS"
+                        android:textColor="@color/DarkGreen"
+                        android:textSize="@dimen/_30sdp"
+                        android:textStyle="bold"
+                        app:fontFamily="@font/new_rocker" />
+
+                    <EditText
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:id="@+id/class_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:layout_marginLeft="@dimen/_25sdp"
+                        android:layout_marginRight="@dimen/_25sdp"
+                        android:drawableLeft="@drawable/training"
+                        android:drawablePadding="@dimen/_10sdp"
+                        android:hint="Class name(required)"
+                        android:textColorHint="@color/DarkGreen"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/subject"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:layout_marginLeft="@dimen/_25sdp"
+                        android:layout_marginRight="@dimen/_25sdp"
+                        android:drawableLeft="@drawable/physicsbook"
+                        android:drawablePadding="@dimen/_10sdp"
+                        android:hint="Subject"
+                        android:textColorHint="@color/DarkGreen"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_180sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#F85E58"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            android:text="CREATE"
+            android:textColor="@color/DarkGreen"
+            android:textSize="@dimen/_17ssp"
+            android:textStyle="bold|normal" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/akronim</item>
+        <item>@font/alegreya_sans_sc_thin</item>
+        <item>@font/amethysta</item>
+        <item>@font/arizonia</item>
+        <item>@font/autour_one</item>
+        <item>@font/crafty_girls</item>
+        <item>@font/delius_swash_caps</item>
+        <item>@font/eagle_lake</item>
+        <item>@font/new_rocker</item>
+    </array>
+</resources>

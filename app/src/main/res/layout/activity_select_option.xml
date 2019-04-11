@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/select_back"
+    android:orientation="vertical"
+    tools:context=".SelectOption.SelectOptionActivity">
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="center_horizontal"
+        android:text="Select One"
+        android:textColor="@color/DarkGreen"
+        android:textSize="20sp"
+        android:textStyle="bold|normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/board_select_teacher"
+        android:gravity="center_vertical"
+
+        android:orientation="vertical">
+
+        <Button
+
+            android:id="@+id/teacher"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+
+            android:background="@android:color/transparent"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+
+            android:text="Teacher"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold|normal" />
+
+        <Button
+            android:id="@+id/student"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            android:text="Student"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold|normal" />
+    </LinearLayout>
+
+</LinearLayout>
